@@ -1,0 +1,38 @@
+:root {
+    --main-font: Helvetica;
+}
+
+* {
+    font-family: var(--main-font);
+}
+
+h1 {
+    background-image: url(images/pattern.jpeg);
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2#brushes {
+    background-color: mediumspringgreen;
+}
+
+h2#frames {
+    background-color: lightcoral;
+}
+
+h2#paint {
+    background-color: skyblue;
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
